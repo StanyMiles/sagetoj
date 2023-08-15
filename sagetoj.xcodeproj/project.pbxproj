@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9B0A9B52A86794400FE35BD /* sagetojApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9B42A86794400FE35BD /* sagetojApp.swift */; };
+		C9B0A9B52A86794400FE35BD /* SagetojApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9B42A86794400FE35BD /* SagetojApp.swift */; };
 		C9B0A9B72A86794400FE35BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9B62A86794400FE35BD /* ContentView.swift */; };
 		C9B0A9B92A86794500FE35BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B0A9B82A86794500FE35BD /* Assets.xcassets */; };
 		C9B0A9BD2A86794500FE35BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B0A9BC2A86794500FE35BD /* Preview Assets.xcassets */; };
 		C9B0A9C72A86794500FE35BD /* sagetojTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9C62A86794500FE35BD /* sagetojTests.swift */; };
 		C9B0A9D12A86794500FE35BD /* sagetojUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9D02A86794500FE35BD /* sagetojUITests.swift */; };
 		C9B0A9D32A86794500FE35BD /* sagetojUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9D22A86794500FE35BD /* sagetojUITestsLaunchTests.swift */; };
+		C9B0A9E02A867CE600FE35BD /* PlayerScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9DF2A867CE600FE35BD /* PlayerScore.swift */; };
+		C9B0A9E32A867CFC00FE35BD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9E22A867CFC00FE35BD /* Player.swift */; };
+		C9B0A9E72A867F6100FE35BD /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9E62A867F6100FE35BD /* PlayersView.swift */; };
+		C9B0A9E92A86816300FE35BD /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9E82A86816300FE35BD /* TextInputView.swift */; };
+		C9B0A9EC2A86859600FE35BD /* ScoreSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9EB2A86859600FE35BD /* ScoreSelectionView.swift */; };
+		C9B0A9EE2A86860600FE35BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9ED2A86860600FE35BD /* Extensions.swift */; };
+		C9B0A9F12A86869100FE35BD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9F02A86869100FE35BD /* Coordinator.swift */; };
+		C9B0A9F42A868A6300FE35BD /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9F32A868A6300FE35BD /* GameStore.swift */; };
+		C9B0A9F62A8692FA00FE35BD /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9F52A8692FA00FE35BD /* StarterView.swift */; };
+		C9B0A9F82A86933C00FE35BD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9F72A86933C00FE35BD /* GameView.swift */; };
+		C9B0A9FA2A8B3A6900FE35BD /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B0A9F92A8B3A6900FE35BD /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		C9B0A9B12A86794400FE35BD /* sagetoj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sagetoj.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9B0A9B42A86794400FE35BD /* sagetojApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagetojApp.swift; sourceTree = "<group>"; };
+		C9B0A9B42A86794400FE35BD /* SagetojApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagetojApp.swift; sourceTree = "<group>"; };
 		C9B0A9B62A86794400FE35BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9B0A9B82A86794500FE35BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B0A9BA2A86794500FE35BD /* sagetoj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sagetoj.entitlements; sourceTree = "<group>"; };
@@ -45,6 +56,17 @@
 		C9B0A9CC2A86794500FE35BD /* sagetojUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sagetojUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B0A9D02A86794500FE35BD /* sagetojUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagetojUITests.swift; sourceTree = "<group>"; };
 		C9B0A9D22A86794500FE35BD /* sagetojUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagetojUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9B0A9DF2A867CE600FE35BD /* PlayerScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScore.swift; sourceTree = "<group>"; };
+		C9B0A9E22A867CFC00FE35BD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C9B0A9E62A867F6100FE35BD /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		C9B0A9E82A86816300FE35BD /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		C9B0A9EB2A86859600FE35BD /* ScoreSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSelectionView.swift; sourceTree = "<group>"; };
+		C9B0A9ED2A86860600FE35BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C9B0A9F02A86869100FE35BD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C9B0A9F32A868A6300FE35BD /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		C9B0A9F52A8692FA00FE35BD /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		C9B0A9F72A86933C00FE35BD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C9B0A9F92A8B3A6900FE35BD /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +117,15 @@
 		C9B0A9B32A86794400FE35BD /* sagetoj */ = {
 			isa = PBXGroup;
 			children = (
-				C9B0A9B42A86794400FE35BD /* sagetojApp.swift */,
-				C9B0A9B62A86794400FE35BD /* ContentView.swift */,
 				C9B0A9B82A86794500FE35BD /* Assets.xcassets */,
-				C9B0A9BA2A86794500FE35BD /* sagetoj.entitlements */,
+				C9B0A9F22A868A5400FE35BD /* Data */,
+				C9B0A9E12A867CF200FE35BD /* Models */,
 				C9B0A9BB2A86794500FE35BD /* Preview Content */,
+				C9B0A9BA2A86794500FE35BD /* sagetoj.entitlements */,
+				C9B0A9B42A86794400FE35BD /* SagetojApp.swift */,
+				C9B0A9EF2A86860A00FE35BD /* Utils */,
+				C9B0A9FB2A8B3A6E00FE35BD /* ViewModels */,
+				C9B0A9EA2A86857600FE35BD /* Views */,
 			);
 			path = sagetoj;
 			sourceTree = "<group>";
@@ -127,6 +153,53 @@
 				C9B0A9D22A86794500FE35BD /* sagetojUITestsLaunchTests.swift */,
 			);
 			path = sagetojUITests;
+			sourceTree = "<group>";
+		};
+		C9B0A9E12A867CF200FE35BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0A9DF2A867CE600FE35BD /* PlayerScore.swift */,
+				C9B0A9E22A867CFC00FE35BD /* Player.swift */,
+				C9B0A9E82A86816300FE35BD /* TextInputView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9B0A9EA2A86857600FE35BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0A9B62A86794400FE35BD /* ContentView.swift */,
+				C9B0A9F72A86933C00FE35BD /* GameView.swift */,
+				C9B0A9E62A867F6100FE35BD /* PlayersView.swift */,
+				C9B0A9EB2A86859600FE35BD /* ScoreSelectionView.swift */,
+				C9B0A9F52A8692FA00FE35BD /* StarterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9B0A9EF2A86860A00FE35BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0A9ED2A86860600FE35BD /* Extensions.swift */,
+				C9B0A9F02A86869100FE35BD /* Coordinator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C9B0A9F22A868A5400FE35BD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0A9F32A868A6300FE35BD /* GameStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C9B0A9FB2A8B3A6E00FE35BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0A9F92A8B3A6900FE35BD /* GameViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B0A9EC2A86859600FE35BD /* ScoreSelectionView.swift in Sources */,
+				C9B0A9F42A868A6300FE35BD /* GameStore.swift in Sources */,
+				C9B0A9E32A867CFC00FE35BD /* Player.swift in Sources */,
+				C9B0A9F12A86869100FE35BD /* Coordinator.swift in Sources */,
+				C9B0A9EE2A86860600FE35BD /* Extensions.swift in Sources */,
 				C9B0A9B72A86794400FE35BD /* ContentView.swift in Sources */,
-				C9B0A9B52A86794400FE35BD /* sagetojApp.swift in Sources */,
+				C9B0A9FA2A8B3A6900FE35BD /* GameViewModel.swift in Sources */,
+				C9B0A9E92A86816300FE35BD /* TextInputView.swift in Sources */,
+				C9B0A9E02A867CE600FE35BD /* PlayerScore.swift in Sources */,
+				C9B0A9F62A8692FA00FE35BD /* StarterView.swift in Sources */,
+				C9B0A9B52A86794400FE35BD /* SagetojApp.swift in Sources */,
+				C9B0A9F82A86933C00FE35BD /* GameView.swift in Sources */,
+				C9B0A9E72A867F6100FE35BD /* PlayersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +521,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.stanislav-adams.sagetoj";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +561,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.stanislav-adams.sagetoj";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
